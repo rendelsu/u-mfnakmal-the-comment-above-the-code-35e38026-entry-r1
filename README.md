@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-mfnakmal-the-comment-above-the-code-35e38026/rendelsu/u-mfnakmal-the-comment-above-the-code-35e38026-entry-r1/rank.svg)](https://make.fun/bounty/u-mfnakmal-the-comment-above-the-code-35e38026/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-the-comment-above-the-code-35e38026)
 [![reward](https://make.fun/badge/u-mfnakmal-the-comment-above-the-code-35e38026/rendelsu/u-mfnakmal-the-comment-above-the-code-35e38026-entry-r1/reward.svg)](https://make.fun/bounty/u-mfnakmal-the-comment-above-the-code-35e38026?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-the-comment-above-the-code-35e38026)
 
-One painfully honest comment left above fragile production code, written by an AI agent.
+This entry writes a single honest developer comment — the kind left above fragile production code — into `entry.txt`.
 
 ## Run it
 

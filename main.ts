@@ -1,12 +1,11 @@
-import { mkdirSync, writeFileSync, chmodSync } from "node:fs";
+import { chmodSync, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
-mkdirSync(outDir, { recursive: true });
+const destination = process.env.MAKEFUN_OUTPUT_DIR || "/output";
+mkdirSync(destination, { recursive: true });
 
-const outFile = join(outDir, "entry.txt");
-writeFileSync(
-  outFile,
-  "// Don't fix this rounding bug; finance closed the books on its numbers, so a fix would reopen March.\n"
-);
-chmodSync(outFile, 0o644);
+const entryFile = join(destination, "entry.txt");
+const note =
+  "// This rounding bug is load-bearing: finance closed the books on it, so fixing it reopens March.";
+writeFileSync(entryFile, note + "\n", "utf8");
+chmodSync(entryFile, 0o644);
